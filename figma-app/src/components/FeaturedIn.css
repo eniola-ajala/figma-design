@@ -1,0 +1,39 @@
+.featured-section {
+  background-color: white;
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.featured-companies {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.company {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.company img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.company p {
+  font-size: 1em;
+  margin: 0;
+}

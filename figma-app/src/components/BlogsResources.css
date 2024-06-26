@@ -1,0 +1,41 @@
+.blogs-resources {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .blogs-resources h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .blogs-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .blog-item {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .blog-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .view-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .view-more:hover {
+    background-color: #0056b3;
+  }
+  

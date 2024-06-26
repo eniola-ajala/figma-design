@@ -1,0 +1,49 @@
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.textContainer {
+  flex: 1;
+  max-width: 50%;
+}
+
+.textContainer h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.textContainer p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.ctaButton:hover {
+  background-color: #333;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.heroImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

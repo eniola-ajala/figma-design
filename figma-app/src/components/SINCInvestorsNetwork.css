@@ -1,0 +1,71 @@
+.sinc-investors-network {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.sinc-investors-network h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sinc-investors-network p {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.section-heading {
+  margin-top: 30px;
+}
+
+.section-heading h3 {
+  background-color: #20888F;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.deals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.deal {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.deal h3 {
+  margin-bottom: 10px;
+}
+
+.deal p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.join-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.join-button:hover {
+  background-color: #0056b3;
+}
